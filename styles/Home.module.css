@@ -1,6 +1,9 @@
 .container {
   padding: 0 2rem;
 }
+html{
+  background-color: #222222;
+}
 .links{
   position: relative;
   
