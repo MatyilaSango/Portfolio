@@ -1,6 +1,8 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import { Mainbodycontainer, Mypiccontainer, Myemailcontainer, Aboutcontainer } from '../styles/Homestyles'
+import Image from 'next/image'
+import mypic from '../icons/mypic.png'
 
 export default function Home() {
   return (
@@ -11,61 +13,34 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
+      <Mainbodycontainer>
+        <Mypiccontainer>
+          <Image src={mypic} alt="pic" height={400} width={300}/>
+        </Mypiccontainer>
+        <Myemailcontainer>
+          <span >Matyila2sango@gmail.com</span>
+        </Myemailcontainer>
+        <Aboutcontainer>
+          <h4>About me 😊 --------------------</h4>
+          <p>
+            My name is Sango Matyila. I am a computer science graduate from university of the western cape.
+            I have a passion for programming. I like to code whether it be creating applications or websites.
+            <br/><br/>
+            My interest in the computing industry started long time ago before I even possesed an electronic device.
+            I was always interested about how these devices that people uses work and how are they enables them to do what they want
+             just with the strokes of their finders. So, when I grew up I told myself thats what want to do, create applications
+             that will benefit the lives of everyone in a good way.
+            <br/><br/>
+            To be a developer at SovTec would be a dream come true. Working with world-class expert team of developers would be a 
+            greate opportunity for me to learn new skills and to learn from my senior how this industry works and how to create beautiful, functional software.
+            <br/><br/>
+            
+          </p>
+        </Aboutcontainer>
 
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
+      </Mainbodycontainer>
 
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h2>Documentation &rarr;</h2>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h2>Learn &rarr;</h2>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
-            className={styles.card}
-          >
-            <h2>Examples &rarr;</h2>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.card}
-          >
-            <h2>Deploy &rarr;</h2>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
-        </div>
-      </main>
-
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
-        </a>
-      </footer>
+      
     </div>
   )
 }
