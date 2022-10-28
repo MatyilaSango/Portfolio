@@ -1,7 +1,7 @@
 .container {
   padding: 0 2rem;
 }
-html{
+.page{
   background-color: #222222;
 }
 .links{
@@ -23,10 +23,9 @@ html{
   transition: 0.5s;
 }
 .page{
-  height: 640px;
   width: 1080px;
-
 }
+
 .Mainbodycontainer{
   height: 640px;
   width: 100%;
