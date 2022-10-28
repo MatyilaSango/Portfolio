@@ -19,11 +19,6 @@ export const LeftSpan = styled.div`
   justify-content: center;
 `;
 
-export const MidSpan = styled.div`
-  color: white;
-  font-size: 18px;
-`;
-
 export const RightSpan = styled.div`
   width: 70px;
   display: flex;
@@ -31,8 +26,8 @@ export const RightSpan = styled.div`
 `;
 
 export const Navlink = styled.div`
-width: 150px;
+width: 120px;
 display: flex;
 justify-content: space-between;
-font-size: 13px;
+font-size: 15px;
 `;

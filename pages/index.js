@@ -1,8 +1,8 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-import { Mainbodycontainer, Mypiccontainer, Myemailcontainer, Aboutcontainer } from '../styles/Homestyles'
+import { Mainbodycontainer, Mypiccontainer, Myemailcontainer, Aboutcontainer, NameSpan } from '../styles/Homestyles'
 import Image from 'next/image'
-import mypic from '../icons/mypic.png'
+import mypic from '../icons/mypic1.jpg'
 
 export default function Home() {
   return (
@@ -10,20 +10,20 @@ export default function Home() {
       <Head>
         <title>Home</title>
         <meta name="description" content="Home page about myself" />
-        <link rel="icon" href="/mypic.png" />
+        <link rel="icon" href="/mypic1.jpg" />
       </Head>
 
       <Mainbodycontainer>
         <Mypiccontainer>
-          <Image src={mypic} alt="pic" height={400} width={300}/>
+          <Image src={mypic} alt="pic" height={400} />
         </Mypiccontainer>
         <Myemailcontainer>
           <span >Matyila2sango@gmail.com</span>
         </Myemailcontainer>
         <Aboutcontainer>
-          <h4>About me 😊 --------------------</h4>
+          <h2>About me 😊 -------</h2>
           <p>
-            My name is Sango Matyila. I am a computer science graduate from university of the western cape.
+            My name is <b><NameSpan>Sango Matyila</NameSpan></b>. I am a computer science graduate from university of the western cape.
             I have a passion for programming. I like to code whether it be creating applications or websites.
             <br/><br/>
             My interest in the computing industry started long time ago before I even possesed an electronic device.
@@ -32,7 +32,7 @@ export default function Home() {
              that will benefit the lives of everyone in a good way.
             <br/><br/>
             To be a developer at SovTec would be a dream come true. Working with world-class expert team of developers would be a 
-            greate opportunity for me to learn new skills and to learn from my senior how this industry works and how to create beautiful, functional software.
+            greate opportunity for me to learn new skills and to learn from my seniors how this industry works and how to create beautiful, functional software.
             <br/><br/>
             One day I want to start my own company. To work with skilled developers at SovTech would enable that dream to come true.
           </p>

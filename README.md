@@ -2,7 +2,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Requirements
 
-After you create the project add styled-compontents. Find [Here](https://github.com/styled-components/styled-components) to install it or npm i styled-components.
+After you create the project add styled-compontents. Find [Here](https://github.com/styled-components/styled-components) to install it or `npm i styled-components`.
 
 ## To run
 
