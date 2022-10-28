@@ -4,15 +4,16 @@ import React from 'react'
 import gitPic from '../icons/GitHub-Mark-Light-32px.png'
 import linkedinPic from '../icons/linkedin.png'
 import { Nav, LeftSpan, RightSpan, Navlink } from '../styles/Navstyles'
+import styles from '../styles/Home.module.css'
 
 export const nav = () => {
   return (
-    <Nav>
+    <Nav className={styles.navStyle}>
         <LeftSpan>SM</LeftSpan>
         
         <Navlink>
-          <Link href="/" >Home</Link>
-          <Link href="/Skills" >Skills</Link>
+          <Link href="/" className={styles.links}>Home</Link>
+          <Link href="/Skills" className={styles.links}>Skills</Link>
         </Navlink>
         
         <RightSpan>

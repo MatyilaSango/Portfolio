@@ -1,16 +1,17 @@
 import Navbar from './Navbar'
 import styled from 'styled-components'
+import styles from '../styles/Home.module.css'
 
 const MainBody = styled.div`
     width: 1080px;
-    height: 640px;
+    
 `;
 
 export default function Layout({ children }){
     return(
-        <MainBody>
+        <div className={styles.page}>
             <Navbar />
             {children}
-        </MainBody>        
+        </div>        
     )
 }

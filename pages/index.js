@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-import { Mainbodycontainer, Mypiccontainer, Myemailcontainer, Aboutcontainer, NameSpan } from '../styles/Homestyles'
+import {  Myemailcontainer, NameSpan } from '../styles/Homestyles'
 import Image from 'next/image'
 import mypic from '../icons/mypic1.jpg'
 
@@ -13,14 +13,14 @@ export default function Home() {
         <link rel="icon" href="/mypic1.jpg" />
       </Head>
 
-      <Mainbodycontainer>
-        <Mypiccontainer>
-          <Image src={mypic} alt="pic" height={400} />
-        </Mypiccontainer>
+      <div className={styles.Mainbodycontainer}>
+        <div className={styles.Mypiccontainer}>
+          <Image className={styles.Image} src={mypic} alt="pic" height={400} />
+        </div>
         <Myemailcontainer>
           <span >Matyila2sango@gmail.com</span>
         </Myemailcontainer>
-        <Aboutcontainer>
+        <div className={styles.Aboutcontainer}>
           <h2>About me 😊 -------</h2>
           <p>
             My name is <b><NameSpan>Sango Matyila</NameSpan></b>. I am a computer science graduate from university of the western cape.
@@ -36,9 +36,9 @@ export default function Home() {
             <br/><br/>
             One day I want to start my own company. To work with skilled developers at SovTech would enable that dream to come true.
           </p>
-        </Aboutcontainer>
+        </div>
 
-      </Mainbodycontainer>
+      </div>
 
       
     </div>

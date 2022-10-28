@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-import { Mainbodycontainer, Myemailcontainer, Toolscontainer, SkillBox, SkillBoxTrans, SkillText, SkillTextBlack, SkillHeadText, PText } from '../styles/Skillsstyle'
+import { Myemailcontainer, Toolscontainer, SkillBox, SkillBoxTrans, SkillText, SkillTextBlack, SkillHeadText, PText } from '../styles/Skillsstyle'
 import Image from 'next/image'
 import javaLogo from '../icons/logos/javaLogo.png'
 import pythonLogo from '../icons/logos/pythonLogo.png'
@@ -21,7 +21,7 @@ export default function Home() {
         <link rel="icon" href="/mypic1.jpg" />
       </Head>
 
-      <Mainbodycontainer>
+      <div className={styles.Mainbodycontainer}>
         <Myemailcontainer>
           <span >Matyila2sango@gmail.com</span>
         </Myemailcontainer>
@@ -68,7 +68,7 @@ export default function Home() {
 
         </Toolscontainer>
         
-      </Mainbodycontainer>
+      </div>
       
     </div>
   )
