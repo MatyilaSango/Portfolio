@@ -3,19 +3,20 @@
 }
 .links{
   position: relative;
+  
 }
 .links::after{
   content: '';
   position: absolute;
   left: 0px;
   bottom: -5px;
-  width: 0px;
+  width: 0%;
   height: 5px;
   background-color: #E67058;
   border-radius: 3px;
 }
-.links:hover + .links::after{
-  width: 50px;
+.links:hover::after{
+  width: 100%;
   transition: 0.5s;
 }
 .page{
@@ -50,6 +51,9 @@
   border-radius: 20px;
   display: flex;
   justify-content: center;
+}
+.SkillBox:hover{
+  top: -10px;
 }
 
 @media (max-width: 1080px) {

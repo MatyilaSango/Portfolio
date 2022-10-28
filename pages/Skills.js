@@ -29,39 +29,39 @@ export default function Home() {
         <Toolscontainer>
           <SkillHeadText><h2>My Skills</h2></SkillHeadText><br />
           <PText>The technologies that I use are as follows!</PText><br/><br />
-          <SkillBox>
+          <SkillBox className={styles.SkillBox}>
             <Image src={javaLogo} alt='pic'></Image>
             <SkillText>Java</SkillText>
           </SkillBox>
-          <SkillBox>
+          <SkillBox className={styles.SkillBox}>
             <Image src={pythonLogo} alt='pic'></Image>
             <SkillText>Python</SkillText>
           </SkillBox>
-          <SkillBox>
+          <SkillBox className={styles.SkillBox}>
             <Image src={mysqlLogo} alt='pic'></Image>
             <SkillText>MySQL</SkillText>
           </SkillBox>
-          <SkillBoxTrans>
+          <SkillBoxTrans className={styles.SkillBox}>
             <Image src={nextjsLogo} alt='pic'></Image>
             <SkillTextBlack>Next.JS</SkillTextBlack>
           </SkillBoxTrans>
-          <SkillBoxTrans>
+          <SkillBoxTrans className={styles.SkillBox}>
             <Image src={hibernateLogo} alt='pic'></Image>
             <SkillTextBlack>Hibernate</SkillTextBlack>
           </SkillBoxTrans>
-          <SkillBox>
+          <SkillBox className={styles.SkillBox}>
             <Image src={gitLogo} alt='pic'></Image>
             <SkillText>Git</SkillText>
           </SkillBox>
-          <SkillBoxTrans>
+          <SkillBoxTrans className={styles.SkillBox}>
             <Image src={githubLogo} alt='pic'></Image>
             <SkillTextBlack>GitHub</SkillTextBlack>
           </SkillBoxTrans>
-          <SkillBoxTrans>
+          <SkillBoxTrans className={styles.SkillBox}>
             <Image src={htmlLogo} alt='pic'></Image>
             <SkillTextBlack>HTML</SkillTextBlack>
           </SkillBoxTrans>
-          <SkillBoxTrans>
+          <SkillBoxTrans className={styles.SkillBox}>
             <Image src={cssLogo} alt='pic'></Image>
             <SkillTextBlack>CSS</SkillTextBlack>
           </SkillBoxTrans>
