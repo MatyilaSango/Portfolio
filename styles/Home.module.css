@@ -6,6 +6,7 @@
 }
 .links{
   position: relative;
+  color: white;
   
 }
 .links::after{
