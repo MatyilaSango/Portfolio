@@ -1,8 +1,10 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+## Requirements
 
-First, run the development server:
+After you create the project add styled-compontents. Find [Here](https://github.com/styled-components/styled-components) to install it or npm i styled-components.
+
+## To run
 
 ```bash
 npm run dev
