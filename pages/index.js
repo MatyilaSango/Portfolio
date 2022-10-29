@@ -30,7 +30,7 @@ export default function Home() {
             To be a developer at SovTec would be a dream come true. Working with a world-class expert team of developers would be a 
             great opportunity for me to learn skills and to learn from my seniors how this industry works and how to create beautiful, functional software.
             <br/><br/>
-            In addition, I like the mission of SovTech, "Innovative custom software that gives our clients the opportunity to start, run and grow world-class businesses",
+            In addition, I like the mission of SovTech, &quot;Innovative custom software that gives our clients the opportunity to start, run and grow world-class businesses&quot;,
             and I want to be part of that.
             
           </p>
