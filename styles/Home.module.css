@@ -94,21 +94,24 @@
 .emailForm{
   width: 300px;
 }
-.emailInput,.emailTextArea{
+.emailInput,.emailTextArea,.emailSend{
   width: 100%;
   height: 40px;
   padding: 10px;
   border-radius: 10px;
   margin-bottom: 5px;
   border: 2px solid #E67058;
+  background-color: #222222;
+  color: white;
 
 }
 .emailTextArea{
   height: 200px;
 }
-.emailSend{
-  width: 100%;
-  height: 30px;
+.emailSend:hover{
+  background-color: #E67058;
+  border: 2px solid #ffffff;
+  cursor: pointer;
 }
 
 .emailContainer,.phoneContainer,.whatsappContainer{
