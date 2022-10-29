@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const Mainbodycontainer = styled.div`
     width: 100%;
-    height: 640px;
+    height: 840px;
     position: relative;
 `;
 
@@ -82,4 +82,13 @@ export const SkillHeadText = styled.div`
     height: 60px;
     display: flex;
     justify-content: center;
+`;
+export const Projectname = styled.nav`
+    width: 200px;
+    line-height: 40px;
+    background-color: #E67058;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    
 `;
