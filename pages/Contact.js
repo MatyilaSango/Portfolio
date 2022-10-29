@@ -22,12 +22,13 @@ export default function Home() {
 
         <ContactContainer>
             <h2>Contact:</h2>
-            <p>My contact details are as follows.</p>
-
-            <p>
-                Email: Matyila2sango@gmail<br />
-                Phone: (+27)&nbsp;61&nbsp;697&nbsp;8172<br />
-            </p>
+            <form className={styles.emailForm}>
+              <input className={styles.emailInput} type="text" placeholder='Name' required/>
+              <input className={styles.emailInput} type="text" placeholder='Email' required/>
+              <textarea className={styles.emailTextArea} placeholder='Message' required/>
+              <input className={styles.emailSend} type="submit" value="Send" />
+            </form>
+            
 
             <div className={styles.picAnimimateContainer}>
               <div className={styles.animateContainer}>

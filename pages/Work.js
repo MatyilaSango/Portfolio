@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-import { Mainbodycontainer, Myemailcontainer, Toolscontainer, SkillBox, SkillBoxTrans, SkillText, SkillTextBlack, SkillHeadText, PText, Projectname } from '../styles/Workstyle'
+import { Mainbodycontainer, Myemailcontainer, Toolscontainer, SkillBox, SkillBoxTrans, SkillText, SkillTextBlack, SkillHeadText, PText, Projectname, PDiv } from '../styles/Workstyle'
 import Image from 'next/image'
 import javaLogo from '../icons/logos/javaLogo.png'
 import pythonLogo from '../icons/logos/pythonLogo.png'
@@ -27,13 +27,14 @@ export default function Home() {
         </Myemailcontainer>
 
         <Toolscontainer>
-          <SkillHeadText><h2>Projects</h2></SkillHeadText><br />
-          <PText>Projects that I did.</PText><br/><br />
-          <PText>
-            <Projectname>Library System</Projectname>&nbsp;&nbsp;
+          <SkillHeadText><h2>My Projects</h2></SkillHeadText><br />
+          <PDiv>
+            <Projectname>Library System</Projectname>
+            <Projectname>Media player</Projectname>
             <Projectname>Tutoring<br /> web<br /> application</Projectname>
-            </PText><br/><br />
-          <SkillHeadText><h2>My Skills</h2></SkillHeadText><br />
+            <Projectname>Music site</Projectname>
+          </PDiv><br/><br />
+          <SkillHeadText><h2>Skills</h2></SkillHeadText><br />
           <PText>The technologies that I use are as follows!</PText><br/><br />
           <SkillBox className={styles.SkillBox}>
             <Image src={javaLogo} alt='pic'></Image>

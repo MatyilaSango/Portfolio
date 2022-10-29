@@ -91,6 +91,26 @@
 
 }
 
+.emailForm{
+  width: 300px;
+}
+.emailInput,.emailTextArea{
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  border: 2px solid #E67058;
+
+}
+.emailTextArea{
+  height: 200px;
+}
+.emailSend{
+  width: 100%;
+  height: 30px;
+}
+
 .emailContainer,.phoneContainer,.whatsappContainer{
   position: absolute;
 }

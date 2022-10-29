@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const Mainbodycontainer = styled.div`
     width: 100%;
-    min-height: 840px;
+    min-height: 940px;
     position: relative;
 `;
 
@@ -85,7 +85,7 @@ export const SkillHeadText = styled.div`
 `;
 export const Projectname = styled.div`
     float: left;
-    width: 250px;
+    width: 190px;
     min-height: 40px;
     border: 3px solid #E67058;
     border-radius: 30px;
@@ -93,5 +93,15 @@ export const Projectname = styled.div`
     justify-content: center;
     align-items: center;
     text-align: center;
-    
+    margin-right: 10px;
+    margin-bottom: 10px;
+    float: left;
 `;
+ export const PDiv = styled.div`
+    width: 400px;
+    height: 120px;
+    justify-content: center;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+ `
