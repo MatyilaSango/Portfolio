@@ -1,7 +1,10 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import { ContactContainer, Myemailcontainer } from '../styles/Contactstyles'
-
+import Image from 'next/image'
+import emailLogo from '../icons/logos/emailLogo.png'
+import phoneLogo from '../icons/logos/phoneLogo.png'
+import whatsappLogo from '../icons/logos/whatsappLogo.png'
 
 export default function Home() {
   return (
@@ -25,6 +28,21 @@ export default function Home() {
                 Email: Matyila2sango@gmail<br />
                 Phone: (+27)&nbsp;61&nbsp;697&nbsp;8172<br />
             </p>
+
+            <div className={styles.picAnimimateContainer}>
+              <div className={styles.animateContainer}>
+                <div className={styles.emailContainer}>
+                  <Image src={emailLogo} alt="pic"></Image>
+                </div>
+                <div className={styles.phoneContainer}>
+                  <Image src={phoneLogo} alt="pic"></Image>
+                </div>
+                <div className={styles.whatsappContainer}>
+                  <Image src={whatsappLogo} alt="pic"></Image>
+                </div>
+
+              </div>
+            </div>
 
         </ContactContainer>
         
