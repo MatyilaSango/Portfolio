@@ -5,6 +5,7 @@ import Image from 'next/image'
 import emailLogo from '../icons/logos/emailLogo.png'
 import phoneLogo from '../icons/logos/phoneLogo.png'
 import whatsappLogo from '../icons/logos/whatsappLogo.png'
+import Footer from '../components/Footer.js'
 
 export default function Home() {
   return (
@@ -49,6 +50,7 @@ export default function Home() {
         
         
       </div>
+      <Footer />
       
     </div>
   )

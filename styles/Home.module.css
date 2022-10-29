@@ -27,7 +27,7 @@
 }
 
 .Mainbodycontainer{
-  height: 640px;
+  min-height: 640px;
   width: 100%;
   position: relative;
 }
@@ -139,12 +139,12 @@
   }
   .Aboutcontainer{
     width: 90%;
-    position: none;
+    position: relative;
     left: 0px;
-    top: 360px
+    top: 30px;
   }
   .Mypiccontainer{
-    position: none;
+    position: relative;
     left: 0px;
     top: 0px;
     transform: translate(0%, 0%);

@@ -6,9 +6,6 @@ export const FootContainer = styled.div`
     align-items: center;
     justify-content: center;
     color: white;
-    position: absolute;
-    bottom: 0px;
-    transform: rotate(-90deg);
-    left: -50px
+    margin-top: 50px;
 
 `;

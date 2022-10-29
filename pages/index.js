@@ -3,6 +3,7 @@ import styles from '../styles/Home.module.css'
 import {  Myemailcontainer, NameSpan } from '../styles/Homestyles'
 import Image from 'next/image'
 import mypic from '../icons/mypic1.jpg'
+import Footer from '../components/Footer.js'
 
 export default function Home() {
   return (
@@ -37,7 +38,7 @@ export default function Home() {
         </div>
 
       </div>
-
+      <Footer />
       
     </div>
   )
