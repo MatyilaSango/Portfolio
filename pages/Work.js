@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-import { Myemailcontainer, Toolscontainer, SkillBox, SkillBoxTrans, SkillText, SkillTextBlack, SkillHeadText, PText } from '../styles/Skillsstyle'
+import { Myemailcontainer, Toolscontainer, SkillBox, SkillBoxTrans, SkillText, SkillTextBlack, SkillHeadText, PText } from '../styles/Workstyle'
 import Image from 'next/image'
 import javaLogo from '../icons/logos/javaLogo.png'
 import pythonLogo from '../icons/logos/pythonLogo.png'
