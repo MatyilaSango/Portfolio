@@ -17,7 +17,7 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>Tools I Use</title>
-        <meta name="description" content="Tools I use to create applications and websites" />
+        <meta name="description" content="Projects and Tools I use" />
         <link rel="icon" href="/mypic1.jpg" />
       </Head>
 
