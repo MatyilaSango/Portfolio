@@ -83,12 +83,15 @@ export const SkillHeadText = styled.div`
     display: flex;
     justify-content: center;
 `;
-export const Projectname = styled.nav`
-    width: 200px;
-    line-height: 40px;
+export const Projectname = styled.div`
+    float: left;
+    width: 250px;
+    min-height: 40px;
     background-color: #E67058;
     border-radius: 30px;
     display: flex;
     justify-content: center;
+    align-items: center;
+    text-align: center;
     
 `;

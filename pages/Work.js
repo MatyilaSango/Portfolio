@@ -31,7 +31,7 @@ export default function Home() {
           <PText>Projects that I did.</PText><br/><br />
           <PText>
             <Projectname>Library System</Projectname>&nbsp;&nbsp;
-            <Projectname>Tutoring web application</Projectname>
+            <Projectname>Tutoring<br /> web<br /> application</Projectname>
             </PText><br/><br />
           <SkillHeadText><h2>My Skills</h2></SkillHeadText><br />
           <PText>The technologies that I use are as follows!</PText><br/><br />
