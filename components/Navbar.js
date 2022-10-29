@@ -14,6 +14,7 @@ export const nav = () => {
         <Navlink>
           <Link href="/" className={styles.links}>Home</Link>
           <Link href="/Skills" className={styles.links}>Skills</Link>
+          <Link href="/Contact" className={styles.links}>Contact</Link>
         </Navlink>
         
         <RightSpan>

@@ -26,7 +26,7 @@ export const RightSpan = styled.div`
 `;
 
 export const Navlink = styled.div`
-  width: 120px;
+  width: 160px;
   display: flex;
   justify-content: space-between;
   font-size: 15px;
