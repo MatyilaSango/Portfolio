@@ -24,7 +24,7 @@ export default function Home() {
           <h2>About me 😊 -------</h2>
           <p>
             My name is <b><NameSpan>Sango Matyila</NameSpan></b>. I am a computer science graduate from University of the Western Cape.
-            I have a passion for programming. I like to code whether it be creating applications or websites. I've been involved in some
+            I have a passion for programming. I like to code whether it be creating applications or websites. I&apos;ve been involved in some
             number of projects; In creation of a library system and a tutoring web application. 
             <br/><br/>
             To be a developer at SovTec would be a dream come true. Working with world-class expert team of developers would be a 
