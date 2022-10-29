@@ -21,7 +21,7 @@ export default function Home() {
         <link rel="icon" href="/mypic1.jpg" />
       </Head>
 
-      <Mainbodycontainer className={styles.Mainbodycontainer}>
+      <Mainbodycontainer>
         <Myemailcontainer>
           <span >Matyila2sango@gmail.com</span>
         </Myemailcontainer>

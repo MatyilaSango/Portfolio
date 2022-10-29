@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const Mainbodycontainer = styled.div`
     width: 100%;
-    height: 840px;
+    min-height: 840px;
     position: relative;
 `;
 
@@ -87,7 +87,7 @@ export const Projectname = styled.div`
     float: left;
     width: 250px;
     min-height: 40px;
-    background-color: #E67058;
+    border: 3px solid #E67058;
     border-radius: 30px;
     display: flex;
     justify-content: center;
