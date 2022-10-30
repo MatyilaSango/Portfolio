@@ -4,7 +4,7 @@
 export default function handler(req, res) {
   require('dotenv').config()
 
-  const PASSWORD = process.env.password 
+  const PASSWORD = "gthjijiilciolagx" 
 
   const body = JSON.parse(req.body)
 
@@ -27,8 +27,6 @@ export default function handler(req, res) {
     text: body.message+" | sent from "+body.email,
     html: `<div>${body.message}</div><p>Sent from: ${body.email}</p>`
    }
-
-
 
    transporter.sendMail(Data, function (err, info) {
     if(err)
