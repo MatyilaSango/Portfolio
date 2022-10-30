@@ -2,7 +2,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Requirements
 
-1. After you create the project add styled-compontents. Find [Here](https://github.com/styled-components/styled-components) to install it or `npm i styled-components`.
+1. After you loaded the project add styled-compontents. Find [Here](https://github.com/styled-components/styled-components) to install it or `npm i styled-components`.
 2. Add `npm i nodemailer` and `npm i dotenv` for sending emails.
 
 ## To run
