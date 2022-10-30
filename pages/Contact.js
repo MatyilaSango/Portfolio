@@ -10,7 +10,7 @@ import Footer from '../components/Footer.js'
 
 export default function Home() {
 
-  async function onSubmitHandler(e){
+  const onSubmitHandler = (e) => {
     e.preventDefault();
     const dataForm = {}
     Array.from(e.currentTarget.elements).forEach(field => {

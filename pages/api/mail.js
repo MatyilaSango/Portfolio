@@ -2,7 +2,6 @@
 
 
 export default function handler(req, res) {
-  console("in here")
   require('dotenv').config()
 
   const PASSWORD = process.env.password 
@@ -29,13 +28,12 @@ export default function handler(req, res) {
     html: `<div>${body.message}</div><p>Sent from: ${body.email}</p>`
    }
 
-   console.log(Data)
+
 
    transporter.sendMail(Data, function (err, info) {
     if(err)
       console.log(err)
-    else
-      
+    else    
       console.log(info)
   })
 
