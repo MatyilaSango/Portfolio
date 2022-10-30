@@ -28,11 +28,9 @@ export default function Home() {
             I have a passion for programming. I like to code, whether it be creating applications or websites. I&apos;ve been involved in a
             number of projects: the creation of a library system and a tutoring web application. 
             <br/><br/>
-            To be a developer at SovTec would be a dream come true. Working with a world-class expert team of developers would be a 
-            great opportunity for me to learn skills and to learn from my seniors how this industry works and how to create beautiful, functional software.
-            <br/><br/>
-            In addition, I like the mission of SovTech, &quot;Innovative custom software that gives our clients the opportunity to start, run and grow world-class businesses&quot;,
-            and I want to be part of that.
+            To be a developer at SovTech would be a dream come true. I'm very passionate about both mobile and web development. 
+            I believe being part of world-class expert team of developers would be a great opportunity for me to acquire new Software Development skills, 
+            learn how this industry works and add value to the company in creation of innovative custom software applications.
             
           </p>
         </div>
