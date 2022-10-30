@@ -2,6 +2,7 @@
 
 
 export default function handler(req, res) {
+  console("in here")
   require('dotenv').config()
 
   const PASSWORD = process.env.password 
@@ -9,7 +10,7 @@ export default function handler(req, res) {
   const body = JSON.parse(req.body)
 
   let nodemailer = require('nodemailer')
-  
+
   const transporter = nodemailer.createTransport({
     port: 465,
     host: "smtp.gmail.com",
@@ -34,6 +35,7 @@ export default function handler(req, res) {
     if(err)
       console.log(err)
     else
+      
       console.log(info)
   })
 
