@@ -33,7 +33,8 @@ export default function handler(req, res) {
       console.log(err)
     else    
       console.log(info)
+      res.status(200).json({ name: 'Ok' })
   })
 
-  res.status(200).json({ name: 'Ok' })
+  
 }
