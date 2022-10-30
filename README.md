@@ -2,9 +2,9 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Requirements
 
-1. Add node_modules folder by typing `npm i next` in terminal.
+1. Add node_modules folder by typing `npm i next` in the terminal.
 
-If style-componets, nodemailer, and dotemv modules are missing.
+If style-componets, nodemailer, and dotenv modules are missing, here are the commands.
 
 1. `npm i styled-components`
 2. `npm i nodemailer`
