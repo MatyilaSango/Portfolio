@@ -11,6 +11,7 @@ import githubLogo from '../icons/logos/githubLogo.png'
 import gitLogo from '../icons/logos/gitLogo.png'
 import htmlLogo from '../icons/logos/htmlLogo.png'
 import cssLogo from '../icons/logos/cssLogo.png'
+import javascriptLogo from '../icons/logos/javascriptLogo.png'
 
 export default function Home() {
   return (
@@ -71,6 +72,10 @@ export default function Home() {
           <SkillBoxTrans className={styles.SkillBox}>
             <Image src={cssLogo} alt='pic'></Image>
             <SkillTextBlack>CSS</SkillTextBlack>
+          </SkillBoxTrans>
+          <SkillBoxTrans className={styles.SkillBox}>
+            <Image src={javascriptLogo} alt='pic'></Image>
+            <SkillTextBlack>JavaScript</SkillTextBlack>
           </SkillBoxTrans>
 
         </Toolscontainer>
