@@ -24,6 +24,7 @@ export default function Home() {
       console.log('Response received')
       if (res.status === 200) {
         console.log('Response succeeded!')
+        alert("Sent!")
         
       }
     })
@@ -51,33 +52,6 @@ export default function Home() {
               <textarea className={styles.emailTextArea} name="message" placeholder='Message' required/>
               <input className={styles.emailSend} id="form" type="submit" value="Send" />
             </form>
-
-            
-            <script src="https://smtpjs.com/v3/smtp.js"></script>
-            <script>
-              {
-                  function sendMail(){
-                      e.preventDefault();
-                  
-                      const name = document.getElementById("name"),
-                            email = document.getElementById("email"),
-                            message = document.getElementById("message");
-                  
-                      Email.send({
-                          SecureToken : "91f08c82-a8f0-4a30-88a8-70a8bb71b8c1",
-                          To : 'matyila2sango@gmail.com',
-                          From : email.innerText,
-                          Subject : name.innerText+": Sent mail from portfolio.",
-                          Body : message.innerText
-                      }).then(
-                          message => alert(message)
-                      );
-                  
-                  }
-                
-              }
-            </script>
-            
 
             <div className={styles.picAnimimateContainer}>
               <div className={styles.animateContainer}>
