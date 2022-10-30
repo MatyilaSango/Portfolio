@@ -28,7 +28,7 @@ export default function Home() {
             I have a passion for programming. I like to code, whether it be creating applications or websites. I&apos;ve been involved in a
             number of projects: the creation of a library system and a tutoring web application. 
             <br/><br/>
-            To be a developer at SovTech would be a dream come true. I'm very passionate about both mobile and web development. 
+            To be a developer at SovTech would be a dream come true. I&apos;m very passionate about both mobile and web development. 
             I believe being part of world-class expert team of developers would be a great opportunity for me to acquire new Software Development skills, 
             learn how this industry works and add value to the company in creation of innovative custom software applications.
             
