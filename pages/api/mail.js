@@ -15,7 +15,7 @@ export default function handler(req, res) {
     host: "smtp.gmail.com",
     auth: {
       user: 'matyila2sango@gmail.com',
-      pass: PASSWORD,
+      pass: "gthjijiilciolagx",
     },
     secure: true,
   })
@@ -35,6 +35,5 @@ export default function handler(req, res) {
       console.log(info)
       res.status(200).json({ name: 'Ok' })
   })
-
-  
+ 
 }
