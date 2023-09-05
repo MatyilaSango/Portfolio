@@ -23,5 +23,5 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Deployed on Netlify
 
-Link to the site: [https://sm-portfolio-sovtech.netlify.app/](https://sm-portfolio-sovtech.netlify.app/)
+Link to the site: [sm-portfolio-sovtech](https://sm-portfolio-sovtech.netlify.app/)
 
